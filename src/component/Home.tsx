@@ -45,7 +45,7 @@ return (
   <Slider {...settings}>
     <div className="Introduce_1">
       <div className="left-side">
-        <img src="/image/me.png" alt="내사진" />
+        <img src="image/me.png" alt="내사진" />
       </div>
 
       <div className="middle-side">

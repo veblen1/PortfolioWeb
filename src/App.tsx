@@ -20,7 +20,7 @@ const Home: React.FC = () => {
   return (
     <div className="App">
       <header className="Header">
-        <img src="/image/android.png" alt="Android Logo" className="android-logo" />
+        <img src="image/android.png" alt="Android Logo" className="android-logo" />
         <p style={{ marginRight: "130px" }}>Android Developer &nbsp; 박해종</p>
         <p onClick={() => handleSectionChange('home')}>Home</p>
         <p onClick={() => handleSectionChange('web')}>Web</p>
