@@ -1,0 +1,116 @@
+a {
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  font-weight: 1000;
+  margin-right: 143px; /* 알고리즘 생기면 70px로 */
+}
+
+.App {
+  margin: 0 auto;
+  overflow: auto;
+  background-color: #1d1d1d;
+  height: 100vh;
+  background-image: url(../public/image/phone.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+.App > * {
+  margin-left: 10%;
+  width: 85%; /* 너비를 90%로 설정 */
+}
+
+.Header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: rgb(255, 255, 255);
+  height: 10vh;
+  position: relative !important;
+  margin-top: 15px;
+}
+
+.android-logo {
+  position: relative;
+  top: 37px;
+  left: -20px;
+}
+
+
+.Introduce_1,
+.Introduce_2,
+.Introduce_3,
+.Introduce_4{
+  flex-direction: row;
+  display: flex !important;
+  align-items: flex-start;
+  background-color: #1d1d1d;
+  font-size: calc(20px + 2vmin);
+  color: white;
+  height: 75vh;
+  font-size: 120%;
+  margin-top: 10px;
+}
+
+.left-side img {
+  margin-right: 5vh;
+}
+
+.left-side {
+  flex: 1;
+}
+
+.middle-side {
+  flex: 3;
+}
+
+
+.slick-next {
+  right: calc(1% + 20px);
+}
+
+.slick-prev {
+  left: calc(1% + 20px);
+}
+
+.slick-dots li button:before {
+  color: white; /* 흰색으로 변경 */
+}
+
+/* 현재 활성화된 dot 스타일 */
+.slick-dots li.slick-active button:before {
+  color: white; /* 필요에 따라 다른 색상으로 변경 가능 */
+}
+
+
+
+
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: large;
+}
+
+table, th, td {
+  background-color: #000000;
+  border: 1px solid white;
+  padding: 10px;
+  text-align: left;
+  font-weight: 600;
+}
+
+table tr:nth-child(even) {
+  background-color: #000000;
+}
