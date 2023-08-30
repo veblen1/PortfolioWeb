@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://veblen1.github.io/PortfolioWeb",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -11,8 +12,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "http://veblen1.github.io/PortfolioWeb"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
